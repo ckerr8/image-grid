@@ -35,4 +35,23 @@ photo:nth-child(2) {
     display: inline-bock;
     max-width: 50%;
   }
+
+}
+
+section {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width 38em)  {
+
+  .photo:last-child {
+    display: none;
+  }
+
+  .photo:nth-child(2)  {
+    max-width: 33.3333%;
+  }
+
 }
