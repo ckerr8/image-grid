@@ -15,6 +15,7 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
   }
+
 }
 
 body {
@@ -32,7 +33,7 @@ photo:nth-child(2) {
 @media only screen and (min-width: 25em) {
 
   .photo:nth-child(2) {
-    display: inline-bock;
+    display: inline-block;
     max-width: 50%;
   }
 
@@ -44,7 +45,7 @@ section {
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width 38em)  {
+@media only screen and (min-width: 38em)  {
 
   .photo:last-child {
     display: none;
